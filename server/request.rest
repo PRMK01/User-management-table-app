@@ -1,0 +1,7 @@
+POST http://localhost:5000/auth
+'Content-Type': 'application/json'
+
+{
+    "users": { "user1": "Jon", "user2": "Sarah" },
+    "currentUser": { "name": "Mabanubu", "nationality": "Kongoan"}
+}

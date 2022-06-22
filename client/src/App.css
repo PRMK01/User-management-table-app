@@ -1,0 +1,67 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 22px;
+  }
+  
+  th {
+    background-color: rgb(117, 201, 250);
+  }
+  
+  td {
+    background-color: rgb(205, 235, 253);
+  }
+  
+  form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  form * {
+    font-size: 28px;
+  }
+
+  .checkbox {
+    margin-left: 30px;
+  }
+
+  .unlock-user {
+    background:rgb(78, 235, 115) !important;
+  }
+
+  .unlock-user:hover {
+    background:rgb(57, 212, 93) !important;
+  }
+
+  .delete-user {
+    background:rgb(56, 56, 56) !important;
+  }
+
+  .delete-user:hover {
+    background:rgb(22, 22, 22) !important;
+  }
+
+  .btn-hover:hover img{
+    transition: .2s ease-in-out;
+    transform: scale(1.1);
+  }
+
